@@ -9,6 +9,8 @@ body {
 :root {
 
     --primary-color: #f9a8d4;
+    --maroon: #831843;
+    --gray: #94a3b8;
 
 }
 
@@ -28,6 +30,35 @@ hr {
 
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.hero {
+  
+       
+ padding: 2rem;
+    
+}
+
+.hero .hero-image {
+
+    display: block;
+    margin:auto;
+    max-width: 350px;
+
+}
+
+.hero .hero-heading {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: var(--gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .highlight {
+
+    color: var(--maroon);
 }
 
 .container {
